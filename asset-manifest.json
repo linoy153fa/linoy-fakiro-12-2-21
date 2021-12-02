@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/linoy-fakiro-2-12-21/static/css/main.5cded0eb.chunk.css",
+    "main.js": "/linoy-fakiro-2-12-21/static/js/main.58fc532c.chunk.js",
+    "main.js.map": "/linoy-fakiro-2-12-21/static/js/main.58fc532c.chunk.js.map",
+    "runtime-main.js": "/linoy-fakiro-2-12-21/static/js/runtime-main.09de1e9e.js",
+    "runtime-main.js.map": "/linoy-fakiro-2-12-21/static/js/runtime-main.09de1e9e.js.map",
+    "static/js/2.7014c64c.chunk.js": "/linoy-fakiro-2-12-21/static/js/2.7014c64c.chunk.js",
+    "static/js/2.7014c64c.chunk.js.map": "/linoy-fakiro-2-12-21/static/js/2.7014c64c.chunk.js.map",
+    "index.html": "/linoy-fakiro-2-12-21/index.html",
+    "static/css/main.5cded0eb.chunk.css.map": "/linoy-fakiro-2-12-21/static/css/main.5cded0eb.chunk.css.map",
+    "static/js/2.7014c64c.chunk.js.LICENSE.txt": "/linoy-fakiro-2-12-21/static/js/2.7014c64c.chunk.js.LICENSE.txt",
+    "static/media/heart.b5d68617.svg": "/linoy-fakiro-2-12-21/static/media/heart.b5d68617.svg",
+    "static/media/heart2.bcfed399.svg": "/linoy-fakiro-2-12-21/static/media/heart2.bcfed399.svg",
+    "static/media/search.4c45ace7.svg": "/linoy-fakiro-2-12-21/static/media/search.4c45ace7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09de1e9e.js",
+    "static/js/2.7014c64c.chunk.js",
+    "static/css/main.5cded0eb.chunk.css",
+    "static/js/main.58fc532c.chunk.js"
+  ]
+}
