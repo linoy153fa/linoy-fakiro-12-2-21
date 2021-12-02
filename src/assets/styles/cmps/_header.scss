@@ -1,0 +1,54 @@
+.header-container {
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(221, 166, 247);
+  @include for-tablet-layout {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  @include for-wide-layout {
+    position: unset;
+    margin-top: 0;
+  }
+
+  .MuiPaper-elevation {
+    padding: 10px 0;
+  }
+}
+
+.header-btns-container {
+  .weather-btn {
+    border-radius: rem;
+  }
+
+  @include for-desktop-layout {
+    margin-left: rem(15px);
+  }
+
+  @include for-wide-layout {
+    display: unset;
+    margin-left: 0px;
+  }
+}
+
+.MuiToolbar-root {
+  @include for-mobile-layout {
+    flex-direction: column;
+  }
+}
+
+.active {
+  color: #9e7dba;
+  transform: scale(1.02);
+  text-decoration: underline;
+}
+
+.navlink {
+  border-color: black;
+  color: 'black';
+  border-radius: 8px;
+  padding: 3px;
+}

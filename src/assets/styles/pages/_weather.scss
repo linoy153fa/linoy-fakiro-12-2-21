@@ -1,0 +1,123 @@
+.weather-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+
+    .top {
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      font-size: 16px;
+    }
+
+    .fav-toggle {
+      padding: 10px;
+      align-items: center;
+      border-radius: 10px;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: black;
+      background-color: #f1ce81;
+      box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+        inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+        inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+      text-align: center;
+      position: relative;
+
+      @include for-mobile-layout {
+        padding: 15px;
+      }
+    }
+
+    .curr-time {
+      align-items: center;
+    }
+
+    .curr-weather-img {
+      height: 85px;
+      width: 100px;
+      @include for-mobile-layout {
+        height: 65px;
+        width: 80px;
+      }
+    }
+
+    .btn-text {
+      @include for-mobile-layout {
+        display: none;
+      }
+    }
+
+    .weather-txt {
+      margin-top: rem(-20px);
+    }
+
+    .forcast-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @include for-tablet-layout {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      @include for-wide-layout {
+        flex-wrap: nowrap;
+      }
+
+      .daily-forcast {
+        margin-bottom: rem(20px);
+
+        @include for-tablet-layout {
+          margin: rem(5px);
+        }
+
+        @include for-desktop-layout {
+          width: rem(160px);
+
+          &:not(:last-child) {
+            margin-right: rem(20px);
+          }
+
+          &:first-child {
+            margin-left: rem(20px);
+          }
+
+          &:last-child {
+            margin-right: rem(20px);
+          }
+        }
+
+        @include for-wide-layout {
+          width: unset;
+        }
+      }
+    }
+  }
+
+  .forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .daily-forecast {
+    padding: 15px;
+  }
+
+  .heart-icon {
+    fill: rgb(138, 51, 51);
+    margin-right: 10px;
+    @include for-mobile-layout {
+      margin-right: 0;
+    }
+  }
+}

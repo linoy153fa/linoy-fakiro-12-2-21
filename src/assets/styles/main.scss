@@ -1,0 +1,17 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/helpers';
+
+// Basics
+@import 'basics/base';
+
+//pages
+@import 'pages/weather';
+@import 'pages/favorites';
+
+//cmps
+@import 'cmps/header';
+
+@import 'cmps/search';
